@@ -1,0 +1,558 @@
+2015-01-20 04:10:00 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /perex/posts
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-20 04:17:46 Error: [MissingActionException] Action Posts::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'Posts',
+  'action' => 'display',
+)
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-01-20 04:19:19 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-20 04:22:02 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-20 04:23:07 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-20 04:25:20 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-20 04:27:49 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-20 04:33:15 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /perex/view/0
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-20 04:36:21 Error: [MissingActionException] Action PostsController::0() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => '0',
+)
+Request URL: /perex/posts/0
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-20 04:37:04 Error: [MissingActionException] Action PostsController::0() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => '0',
+)
+Request URL: /perex/posts/0
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-20 04:37:44 Error: [MissingActionException] Action PostsController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => '1',
+)
+Request URL: /perex/posts/1
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-20 04:55:02 Error: Fatal Error (1): Call to undefined method View::link() in [/Users/motohiro/Sites/www/perex/app/View/Layouts/default.ctp, line 41]
+2015-01-20 04:55:02 Error: [FatalErrorException] Call to undefined method View::link()
+Request URL: /perex/posts/view/2
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/motohiro...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/motohiro...', 41, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/motohiro...', 41, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-20 05:09:31 Error: [MissingControllerException] Controller class DeleteController could not be found.
+Exception Attributes: array (
+  'class' => 'DeleteController',
+  'plugin' => NULL,
+)
+Request URL: /perex/delete/4
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-20 15:31:51 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /perex/add
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-20 15:51:41 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/index.ctp, line 9]
+2015-01-20 15:51:41 Error: [FatalErrorException] parse error
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 9, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 9, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-20 15:52:16 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/index.ctp, line 9]
+2015-01-20 15:52:16 Error: [FatalErrorException] parse error
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 9, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 9, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-20 15:52:18 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/index.ctp, line 9]
+2015-01-20 15:52:18 Error: [FatalErrorException] parse error
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 9, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 9, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-20 16:06:54 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/index.ctp, line 25]
+2015-01-20 16:06:54 Error: [FatalErrorException] parse error
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 25, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 25, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 03:52:17 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/add.ctp, line 13]
+2015-01-28 03:52:17 Error: [FatalErrorException] parse error
+Request URL: /perex/posts/add
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 13, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 13, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:09:52 Error: Fatal Error (1): Call to a member function script() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Layouts/default.ctp, line 38]
+2015-01-28 04:09:52 Error: [FatalErrorException] Call to a member function script() on a non-object
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 38, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 38, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:10:10 Error: Fatal Error (1): Call to a member function script() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Layouts/default.ctp, line 38]
+2015-01-28 04:10:10 Error: [FatalErrorException] Call to a member function script() on a non-object
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 38, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 38, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:10:13 Error: Fatal Error (1): Call to a member function script() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Layouts/default.ctp, line 38]
+2015-01-28 04:10:13 Error: [FatalErrorException] Call to a member function script() on a non-object
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 38, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 38, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:10:40 Error: Fatal Error (1): Call to a member function script() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Layouts/default.ctp, line 36]
+2015-01-28 04:10:40 Error: [FatalErrorException] Call to a member function script() on a non-object
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 36, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 36, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:12:01 Error: Fatal Error (1): Call to a member function script() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Layouts/default.ctp, line 38]
+2015-01-28 04:12:01 Error: [FatalErrorException] Call to a member function script() on a non-object
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 38, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 38, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:16:18 Error: Fatal Error (1): Call to a member function script() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/add.ctp, line 2]
+2015-01-28 04:16:18 Error: [FatalErrorException] Call to a member function script() on a non-object
+Request URL: /perex/posts/add
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 2, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 2, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:16:48 Error: Fatal Error (1): Call to a member function textarea() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/add.ctp, line 11]
+2015-01-28 04:16:48 Error: [FatalErrorException] Call to a member function textarea() on a non-object
+Request URL: /perex/posts/add
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 11, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 11, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:16:57 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Layouts/default.ctp, line 36]
+2015-01-28 04:16:57 Error: [FatalErrorException] parse error
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 36, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 36, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:16:59 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Layouts/default.ctp, line 36]
+2015-01-28 04:16:59 Error: [FatalErrorException] parse error
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 36, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 36, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:17:32 Error: Fatal Error (1): Call to a member function script() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Layouts/default.ctp, line 39]
+2015-01-28 04:17:32 Error: [FatalErrorException] Call to a member function script() on a non-object
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 39, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 39, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:18:43 Error: Fatal Error (1): Call to a member function textarea() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/add.ctp, line 11]
+2015-01-28 04:18:43 Error: [FatalErrorException] Call to a member function textarea() on a non-object
+Request URL: /perex/posts/add
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 11, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 11, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:18:43 Error: [MissingActionException] Action PostsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'js',
+)
+Request URL: /perex/posts/js/ckeditor/ckeditor.js
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-28 04:26:06 Error: [MissingActionException] Action PostsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'js',
+)
+Request URL: /perex/posts/js/ckeditor/ckeditor.js
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-28 04:27:07 Error: [MissingActionException] Action PostsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'js',
+)
+Request URL: /perex/posts/js/ckeditor/ckeditor.js
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-28 04:27:16 Error: [MissingActionException] Action PostsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'js',
+)
+Request URL: /perex/posts/js/ckeditor/ckeditor.js
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-28 04:29:08 Error: Fatal Error (1): Call to a member function textarea() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/add.ctp, line 11]
+2015-01-28 04:29:08 Error: [FatalErrorException] Call to a member function textarea() on a non-object
+Request URL: /perex/posts/add
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 11, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 11, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 04:29:08 Error: [MissingActionException] Action PostsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'js',
+)
+Request URL: /perex/posts/js/ckeditor/ckeditor.js
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-28 04:29:31 Error: [MissingActionException] Action PostsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'js',
+)
+Request URL: /perex/posts/js/ckeditor/ckeditor.js
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-28 04:30:49 Error: [MissingActionException] Action PostsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'js',
+)
+Request URL: /perex/posts/js/ckeditor/ckeditor.js
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-28 05:31:48 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(227): CakePlugin::path('Search')
+#1 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(549): App::path('Model/Behavior', 'Search')
+#2 [internal function]: App::load('SearchableBehav...')
+#3 [internal function]: spl_autoload_call('SearchableBehav...')
+#4 /Users/motohiro/Sites/www/perex/lib/Cake/Model/BehaviorCollection.php(120): class_exists('SearchableBehav...')
+#5 /Users/motohiro/Sites/www/perex/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Search.Searchab...', Array)
+#6 /Users/motohiro/Sites/www/perex/lib/Cake/Model/Model.php(755): BehaviorCollection->init('Post', Array)
+#7 [internal function]: Model->__construct(Array)
+#8 /Users/motohiro/Sites/www/perex/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#9 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#10 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(367): Controller->loadModel('Post')
+#11 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(405): Controller->__isset('Post')
+#12 /Users/motohiro/Sites/www/perex/app/Controller/PostsController.php(11): Controller->__get('Post')
+#13 [internal function]: PostsController->index('home')
+#14 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#15 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#16 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#17 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2015-01-28 05:39:33 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Core/CakePlugin.php(72): CakePlugin::load('Search', Array)
+#1 /Users/motohiro/Sites/www/perex/app/Config/bootstrap.php(111): CakePlugin::load(Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/Configure.php(92): include('/Users/motohiro...')
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#4 /Users/motohiro/Sites/www/perex/app/webroot/index.php(90): include('/Users/motohiro...')
+#5 {main}
+2015-01-29 03:33:55 Error: Fatal Error (1): Call to a member function label() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/index.ctp, line 6]
+2015-01-29 03:33:55 Error: [FatalErrorException] Call to a member function label() on a non-object
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 6, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 6, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 03:34:17 Error: Fatal Error (1): Call to a member function text() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/index.ctp, line 7]
+2015-01-29 03:34:17 Error: [FatalErrorException] Call to a member function text() on a non-object
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 7, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 7, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 03:34:49 Error: Fatal Error (1): Call to a member function label() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/search.ctp, line 5]
+2015-01-29 03:34:49 Error: [FatalErrorException] Call to a member function label() on a non-object
+Request URL: /perex/posts/search/home?title=Street&author=
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 5, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 5, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 03:35:03 Error: Fatal Error (1): Call to a member function label() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/search.ctp, line 5]
+2015-01-29 03:35:03 Error: [FatalErrorException] Call to a member function label() on a non-object
+Request URL: /perex/posts/search/home?title=Street&author=a
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 5, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 5, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 03:35:56 Error: Fatal Error (1): Call to a member function label() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/search.ctp, line 5]
+2015-01-29 03:35:56 Error: [FatalErrorException] Call to a member function label() on a non-object
+Request URL: /perex/posts/search/home?title=aaaeae&author=
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 5, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 5, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 03:51:06 Error: [MissingControllerException] Controller class PerexController could not be found.
+Exception Attributes: array (
+  'class' => 'PerexController',
+  'plugin' => NULL,
+)
+Request URL: /perex/perex/index
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-29 03:51:34 Error: [MissingControllerException] Controller class PerexController could not be found.
+Exception Attributes: array (
+  'class' => 'PerexController',
+  'plugin' => NULL,
+)
+Request URL: /perex/perex/index
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-29 03:52:17 Error: [MissingControllerException] Controller class SearchController could not be found.
+Exception Attributes: array (
+  'class' => 'SearchController',
+  'plugin' => 'Search',
+)
+Request URL: /perex/search
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-29 03:57:09 Error: [MissingControllerException] Controller class SearchController could not be found.
+Exception Attributes: array (
+  'class' => 'SearchController',
+  'plugin' => 'Search',
+)
+Request URL: /perex/search
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-29 03:58:47 Error: [MissingControllerException] Controller class SearchController could not be found.
+Exception Attributes: array (
+  'class' => 'SearchController',
+  'plugin' => 'Search',
+)
+Request URL: /perex/search
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-29 04:03:22 Error: [MissingModelException] User
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(1085): PaginatorComponent->paginate('User', Array, Array)
+#1 /Users/motohiro/Sites/www/perex/app/Controller/PostsController.php(36): Controller->paginate('User')
+#2 [internal function]: PostsController->index('home')
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-01-29 04:03:26 Error: [MissingModelException] User
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(1085): PaginatorComponent->paginate('User', Array, Array)
+#1 /Users/motohiro/Sites/www/perex/app/Controller/PostsController.php(36): Controller->paginate('User')
+#2 [internal function]: PostsController->index('home')
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/motohiro/Sites/www/perex/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-01-29 04:10:36 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [/Users/motohiro/Sites/www/perex/app/Controller/PostsController.php, line 32]
+2015-01-29 04:10:36 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 32, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 32, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
