@@ -1,35 +1,20 @@
-
-<ul>
-
-<?php foreach ($posts as $post) : ?>
-
-<li id="post_<?php echo h($post['Post']['id']);?>">
-	<?php 
-		echo $this->Html->link(
-		$post['Post']['title'] . "[" . $post['Post']['author'] . "," . $post['Post']['year'] . "]", 
-		'/posts/view/'.$post['Post']['id']);
-	?>
-	
+<div style='text-align:center;'>
+<img src="/perex/img/perex logo.png" style="height:40%;width:40%;" />
+<div style="width:50%;margin:0px auto;">
 	<?php
-		echo $this->Html->link('編集', array('action'=>'edit', $post['Post']['id']));
+		echo $this->Form->create('Post', array('url' => array_merge(array('action' => 'search'), $this->params['pass'])));
+		echo $this->Form->input('title', array('label' => false, 'placeholder' => 'キーワードで検索'));
+		echo $this->Form->end();
 	?>
-	
-	<?php
-		echo $this->Html->link('削除', '#', array('class'=>'delete', 'data-post-id'=>$post['Post']['id']));
-	?>
-	
-</li>
-
-<?php endforeach; ?>
-
-</ul>
+</div>
+</div>
 
 <h2>
 <?php 
 	echo $this->Html->link('解説を投稿', array('action' => 'add'));
 ?>
 </h2>
-
+<!--
 <script>
 
 $(function(){
@@ -42,5 +27,5 @@ $(function(){
 		return false;
 	});		
 });
-
+-->
 </script>

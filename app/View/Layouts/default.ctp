@@ -21,10 +21,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <html>
 <head>
 	<?php echo $this->Html->charset(); ?>
-	<title>
-		<?php echo $title_for_layout; ?>
-		<!--<?php echo $this->fetch('title'); ?>-->
-	</title>
+	<title>Perex</title>
 	<?php
 		echo $this->Html->meta('icon');
 
@@ -38,21 +35,25 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 	<script src="/perex/js/ckeditor/ckeditor.js"></script>
 	<script>CKEDITOR.config.skin = 'office2013';</script>
-
+	<script>
+		$(function(){$("#container").height($(window).height())});
+	</script>
 </head>
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link('Perex : 学術論文の解説を共有', '/'); ?></h1>
+			
 		</div>
-		<div id="content">
+		<div id="content" style="height: 85%;">
 
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
 		</div>
+		<!--
 		<div id="footer">
 		</div>
+		-->
 	</div>
 	<!--<?php echo $this->element('sql_dump'); ?>-->
 	

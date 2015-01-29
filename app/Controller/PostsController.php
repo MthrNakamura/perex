@@ -3,13 +3,36 @@
 class PostsController extends AppController {
 	
 	public $helpers = array('Html', 'Form');
-		
+	
+	var $components = array('Search.Prg');
+	
+	var $presetVars = true;
+	
+	public $pagenate = array(
+		'posts' => array(
+			'limit' => 20,
+			'order' => array('id' => 'asc'),
+		)
+	);
+	
 	//
 	// 投稿一覧の表示
 	//
 	public function index() {
+		
+	/*
 		$this->set('posts', $this->Post->find('all'));
 		$this->set('title_for_layout', '論文一覧');
+		*/
+	}
+
+	public function search() {
+		$this->Post->recursive = 0;
+        $this->Prg->commonProcess();
+        $this->paginate = array(
+            'conditions' => $this->Post->parseCriteria($this->passedArgs),
+        );
+        $this->set('posts', $this->paginate());
 	}
 
 	//

@@ -1,0 +1,50 @@
+.doc-link {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+.doc-link:hover {
+	text-decoration: underline;
+}
+
+.doc-link:link {
+	color: #0077ff;
+}
+
+.doc-link:visited {
+	color: #9977ff;
+}
+
+.search-head {
+	display: table;
+	width: 100%;
+	margin-top: 2%;
+}
+
+.perex-logo {
+	width: 15%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.perex-logo img {
+	width: 70%;
+	vertical-align: middle;
+	margin-left: 15%;
+}
+
+.search-box-wrap {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.search-box {
+	width: 80%;
+	margin-top: 2%;
+	line-height: 15%;
+	margin-left: 5%;
+}
+
+.search-foam {
+	width: 100%;
+}

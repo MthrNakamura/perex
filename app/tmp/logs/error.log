@@ -556,3 +556,150 @@ Stack Trace:
 #3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-01-29 04:54:20 Error: [MissingControllerException] Controller class SearchController could not be found.
+Exception Attributes: array (
+  'class' => 'SearchController',
+  'plugin' => 'Search',
+)
+Request URL: /perex/search
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-29 05:13:31 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [/Users/motohiro/Sites/www/perex/app/Controller/PostsController.php, line 30]
+2015-01-29 05:13:31 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /perex/posts/search/home?title=aaa
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 30, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 30, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 05:15:04 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [/Users/motohiro/Sites/www/perex/app/Controller/PostsController.php, line 31]
+2015-01-29 05:15:04 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /perex/posts/search/home?title=aaa
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 31, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 31, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 05:22:16 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [/Users/motohiro/Sites/www/perex/app/Controller/PostsController.php, line 30]
+2015-01-29 05:22:16 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /perex/posts/search/home?title=aaaaa
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 30, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 30, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 05:25:14 Error: Fatal Error (1): Call to a member function parseCriteria() on a non-object in [/Users/motohiro/Sites/www/perex/app/Controller/PostsController.php, line 37]
+2015-01-29 05:25:14 Error: [FatalErrorException] Call to a member function parseCriteria() on a non-object
+Request URL: /perex/posts/search/home?title=aaaa
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 37, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 37, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 05:25:45 Error: Fatal Error (1): Call to a member function create() on a non-object in [/Users/motohiro/Sites/www/perex/app/View/Posts/search.ctp, line 2]
+2015-01-29 05:25:45 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /perex/posts/search/home?title=aaaa
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/motohiro...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/motohiro...', 2, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/motohiro...', 2, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 05:38:23 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/motohiro/Sites/www/perex/app/View/Posts/index.ctp, line 3]
+2015-01-29 05:38:23 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/motohiro...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/motohiro...', 3, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/motohiro...', 3, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 07:02:16 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/search.ctp, line 11]
+2015-01-29 07:02:16 Error: [FatalErrorException] parse error
+Request URL: /perex/posts/search/home?title=a
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 11, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 11, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 07:07:41 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /perex/add
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-29 07:16:30 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/search.ctp, line 8]
+2015-01-29 07:16:30 Error: [FatalErrorException] parse error
+Request URL: /perex/posts/search?title=a
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 8, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 8, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 07:33:32 Error: [MissingControllerException] Controller class PerexController could not be found.
+Exception Attributes: array (
+  'class' => 'PerexController',
+  'plugin' => NULL,
+)
+Request URL: /perex/perex/css/search.css
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-29 08:42:28 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/search.ctp, line 4]
+2015-01-29 08:42:28 Error: [FatalErrorException] parse error
+Request URL: /perex/posts/search/home?title=a
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 4, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 4, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 09:41:35 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/index.ctp, line 7]
+2015-01-29 09:41:35 Error: [FatalErrorException] parse error
+Request URL: /perex/posts
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 7, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 7, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 10:13:05 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/index.ctp, line 6]
+2015-01-29 10:13:05 Error: [FatalErrorException] parse error
+Request URL: /perex/
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 6, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 6, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-29 10:21:30 Error: Fatal Error (4): parse error in [/Users/motohiro/Sites/www/perex/app/View/Posts/add.ctp, line 5]
+2015-01-29 10:21:30 Error: [FatalErrorException] parse error
+Request URL: /perex/posts/add
+Stack Trace:
+#0 /Users/motohiro/Sites/www/perex/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error', '/Users/motohiro...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/motohiro...', 5, Array)
+#2 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/motohiro...', 5, Array)
+#3 /Users/motohiro/Sites/www/perex/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
